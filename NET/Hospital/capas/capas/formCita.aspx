@@ -256,16 +256,21 @@
                 </tr>
                 <tr>
                     <td>
-                        <asp:Label ID="lblfechac3" runat="server" Text="Nueva Fecha:"></asp:Label>
+                        <asp:Label ID="lblfecha3" runat="server" Text="Fecha:"></asp:Label>
                     </td>
-                    <td>
-                        <asp:TextBox ID="fechac3" runat="server"></asp:TextBox>
+                    <td colspan="2">
+                        <asp:TextBox ID="tdia3" runat="server">DIA</asp:TextBox>
+                        <asp:TextBox ID="tmes3" runat="server">MES</asp:TextBox>
+                        <asp:TextBox ID="tanio3" runat="server">AÑO</asp:TextBox>
                     </td>
-                    <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td colspan="3">
-                        <asp:Label ID="lblOJO1" runat="server" Text="La fecha debe estar en formato 'DD-MM-YYYY HH:MM XM' Ej: '18-06-2012 10:34:09 AM'"></asp:Label>
+                    <td>
+                        <asp:Label ID="lblhora3" runat="server" Text="Hora: "></asp:Label>
+                    </td>
+                    <td colspan="2">
+                        <asp:TextBox ID="thora3" runat="server">HORAS</asp:TextBox>
+                        <asp:TextBox ID="tminut3" runat="server">MINUTOS</asp:TextBox>
                     </td>
                 </tr>
                 <tr>
