@@ -1,0 +1,6 @@
+C:\Users\luisf\source\repos\CDatos\CEntidades\bin\Debug\CEntidades.dll
+C:\Users\luisf\source\repos\CDatos\CEntidades\bin\Debug\CEntidades.pdb
+C:\Users\luisf\source\repos\CDatos\CEntidades\obj\Debug\CEntidades.csprojAssemblyReference.cache
+C:\Users\luisf\source\repos\CDatos\CEntidades\obj\Debug\CEntidades.csproj.CoreCompileInputs.cache
+C:\Users\luisf\source\repos\CDatos\CEntidades\obj\Debug\CEntidades.dll
+C:\Users\luisf\source\repos\CDatos\CEntidades\obj\Debug\CEntidades.pdb
