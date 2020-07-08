@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="formVisitante.aspx.cs" Inherits="capas.formVisitante" %>
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="formVisitante.aspx.cs" Inherits="capas.formVisitante" %>
 
 <!DOCTYPE html>
 
@@ -31,14 +31,15 @@
                         <asp:TextBox ID="idv" runat="server"></asp:TextBox>
                     </td>
                     <td>
-                        <asp:Button ID="btnveridv" runat="server" Text="Verificar ID" />
+                        <asp:Button ID="btnveridv" runat="server" Text="Verificar ID" OnClick="btnveridv_Click" />
                     </td>
                 </tr>
                 <tr>
                     <td>
+                        &nbsp;</td>
+                    <td>
                         <asp:Label ID="lblveridv" runat="server" Text=""></asp:Label>
                     </td>
-                    <td>&nbsp;</td>
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
@@ -75,7 +76,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <asp:Button ID="btnCV" runat="server" Text="Crear Visitante" />
+                        <asp:Button ID="btnCV" runat="server" Text="Crear Visitante" OnClick="btnCV_Click" />
                     </td>
                     <td>
                         <asp:Label ID="lblCV1" runat="server" Text=""></asp:Label>
@@ -100,20 +101,20 @@
                         <asp:TextBox ID="idv2" runat="server"></asp:TextBox>
                     </td>
                     <td class="auto-style2">
-                        <asp:Button ID="btnveridv2" runat="server" Text="Verificar ID" />
+                        <asp:Button ID="btnveridv2" runat="server" Text="Verificar ID" OnClick="btnveridv2_Click" />
                     </td>
                 </tr>
                 <tr>
                     <td>
+                        &nbsp;</td>
+                    <td>
                         <asp:Label ID="lblveridv2" runat="server" Text=""></asp:Label>
                     </td>
-                    <td>
-                        &nbsp;</td>
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
                     <td>
-                        <asp:Button ID="btnBV" runat="server" Text="Borrar Visitante" />
+                        <asp:Button ID="btnBV" runat="server" Text="Borrar Visitante" OnClick="btnBV_Click" />
                     </td>
                     <td>
                         <asp:Label ID="lblBV1" runat="server" Text=""></asp:Label>
@@ -138,14 +139,15 @@
                         <asp:TextBox ID="idvviejo" runat="server"></asp:TextBox>
                     </td>
                     <td>
-                        <asp:Button ID="btnveridvviejo" runat="server" Text="Verificar ID" />
+                        <asp:Button ID="btnveridvviejo" runat="server" Text="Verificar ID" OnClick="btnveridvviejo_Click" style="height: 26px" />
                     </td>
                 </tr>
                 <tr>
                     <td>
+                        &nbsp;</td>
+                    <td>
                         <asp:Label ID="lblveridvviejo" runat="server" Text=""></asp:Label>
                     </td>
-                    <td>&nbsp;</td>
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
@@ -156,15 +158,15 @@
                         <asp:TextBox ID="idv3" runat="server"></asp:TextBox>
                     </td>
                     <td>
-                        <asp:Button ID="btnveridv3" runat="server" Text="Verificar ID" />
+                        <asp:Button ID="btnveridv3" runat="server" Text="Verificar ID" OnClick="btnveridv3_Click" />
                     </td>
                 </tr>
                 <tr>
                     <td>
+                        &nbsp;</td>
+                    <td>
                         <asp:Label ID="lblveridv3" runat="server" Text=""></asp:Label>
                     </td>
-                    <td>
-                        &nbsp;</td>
                     <td>
                         &nbsp;</td>
                 </tr>
@@ -200,7 +202,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <asp:Button ID="btnAV" runat="server" Text="Actualizar Visitante" />
+                        <asp:Button ID="btnAV" runat="server" Text="Actualizar Visitante" OnClick="btnAV_Click" />
                     </td>
                     <td>
                         <asp:Label ID="lblAV1" runat="server" Text=""></asp:Label>
@@ -225,20 +227,20 @@
                         <asp:TextBox ID="idv4" runat="server"></asp:TextBox>
                     </td>
                     <td class="auto-style2">
-                        <asp:Button ID="btnveridv4" runat="server" Text="Verificar ID" />
+                        <asp:Button ID="btnveridv4" runat="server" Text="Verificar ID" OnClick="btnveridv4_Click" />
                     </td>
                 </tr>
                 <tr>
                     <td>
+                        &nbsp;</td>
+                    <td>
                         <asp:Label ID="lblveridv4" runat="server" Text=""></asp:Label>
                     </td>
-                    <td>
-                        &nbsp;</td>
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
                     <td>
-                        <asp:Button ID="btnLV" runat="server" Text="Leer Visitante" />
+                        <asp:Button ID="btnLV" runat="server" Text="Leer Visitante" OnClick="btnLV_Click" />
                     </td>
                     <td>
                         <asp:Label ID="lblLV1" runat="server" Text=""></asp:Label>
