@@ -10,12 +10,12 @@ namespace CEntidades
     {
         private int idv;
         private String nomv;
-        private byte edadv;
+        private int edadv;
         private String telefono;
 
         public int Idv { get => idv; set => idv = value; }
         public string Nomv { get => nomv; set => nomv = value; }
-        public byte Edadv { get => edadv; set => edadv = value; }
+        public int Edadv { get => edadv; set => edadv = value; }
         public string Telefono { get => telefono; set => telefono = value; }
     }
 }
