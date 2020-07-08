@@ -11,6 +11,7 @@
             width: 100%;
         }
     </style>
+    <script src="formEmpleado.aspx.cs"></script>
 </head>
 <body>
     <form id="form1" runat="server">

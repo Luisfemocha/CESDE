@@ -11,6 +11,7 @@
             width: 100%;
         }
     </style>
+    <script src="formCita.aspx.cs"></script>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -307,7 +308,6 @@
                     <td>&nbsp;</td>
                 </tr>
             </table>
-
         </div>
     </form>
 </body>

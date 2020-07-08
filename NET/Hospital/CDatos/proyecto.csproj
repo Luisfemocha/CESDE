@@ -1,0 +1,381 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{A9B0FC42-DE13-4F0E-94FC-380104F368C5}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>ConsoleApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>proyecto</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".editorconfig" />
+    <None Include=".vs\capas\config\applicationhost.config" />
+    <None Include=".vs\capas\v16\.suo" />
+    <None Include=".vs\CDatos\config\applicationhost.config" />
+    <None Include=".vs\CDatos\v16\.suo" />
+    <None Include=".vs\ProjectSettings.json" />
+    <None Include=".vs\slnx.sqlite" />
+    <None Include=".vs\tasks.vs.json" />
+    <None Include=".vs\VSWorkspaceState.json" />
+    <None Include="capas\bin\capas.dll.config" />
+    <None Include="capas\bin\roslyn\csc.exe.config" />
+    <None Include="capas\bin\roslyn\csc.rsp" />
+    <None Include="capas\bin\roslyn\csi.exe.config" />
+    <None Include="capas\bin\roslyn\csi.rsp" />
+    <None Include="capas\bin\roslyn\Microsoft.CSharp.Core.targets" />
+    <None Include="capas\bin\roslyn\Microsoft.Managed.Core.targets" />
+    <None Include="capas\bin\roslyn\Microsoft.VisualBasic.Core.targets" />
+    <None Include="capas\bin\roslyn\vbc.exe.config" />
+    <None Include="capas\bin\roslyn\vbc.rsp" />
+    <None Include="capas\bin\roslyn\VBCSCompiler.exe.config" />
+    <None Include="capas\capas.csproj" />
+    <None Include="capas\Ccapas.csproj" />
+    <None Include="capas\obj\Debug\capas.csproj.CopyComplete" />
+    <None Include="capas\obj\Debug\capas.csproj.CoreCompileInputs.cache" />
+    <None Include="capas\obj\Debug\capas.csprojAssemblyReference.cache" />
+    <None Include="capas\obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="capas\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="capas\obj\x86\Debug\Ccapas.csprojAssemblyReference.cache" />
+    <None Include="capas\obj\x86\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="capas\packages.config" />
+    <None Include="capas\Web.config" />
+    <None Include="capas\Web.Debug.config" />
+    <None Include="capas\Web.Release.config" />
+    <None Include="CDatos\CDatos.csproj" />
+    <None Include="CDatos\obj\Debug\CDatos.csproj.CopyComplete" />
+    <None Include="CDatos\obj\Debug\CDatos.csproj.CoreCompileInputs.cache" />
+    <None Include="CDatos\obj\Debug\CDatos.csprojAssemblyReference.cache" />
+    <None Include="CDatos\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="CDatos\obj\Release\CDatos.csprojAssemblyReference.cache" />
+    <None Include="CEntidades\CEntidades.csproj" />
+    <None Include="CEntidades\obj\Debug\CEntidades.csproj.CoreCompileInputs.cache" />
+    <None Include="CEntidades\obj\Debug\CEntidades.csprojAssemblyReference.cache" />
+    <None Include="CEntidades\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="CReglas\CReglas.csproj" />
+    <None Include="CReglas\obj\Debug\CReglas.csproj.CopyComplete" />
+    <None Include="CReglas\obj\Debug\CReglas.csproj.CoreCompileInputs.cache" />
+    <None Include="CReglas\obj\Debug\CReglas.csprojAssemblyReference.cache" />
+    <None Include="CReglas\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="CReglas\obj\x86\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\.signature.p7s" />
+    <None Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.Extensions.props" />
+    <None Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" />
+    <None Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.Extensions.props" />
+    <None Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" />
+    <None Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\content\net45\app.config.install.xdt" />
+    <None Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\content\net45\app.config.uninstall.xdt" />
+    <None Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\content\net45\web.config.install.xdt" />
+    <None Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\content\net45\web.config.uninstall.xdt" />
+    <None Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\content\net46\app.config.install.xdt" />
+    <None Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\content\net46\app.config.uninstall.xdt" />
+    <None Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\content\net46\web.config.install.xdt" />
+    <None Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\content\net46\web.config.uninstall.xdt" />
+    <None Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1.nupkg" />
+    <None Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\net45\install.ps1" />
+    <None Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\net45\uninstall.ps1" />
+    <None Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\Roslyn45\csc.exe.config" />
+    <None Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\Roslyn45\csc.rsp" />
+    <None Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\Roslyn45\csi.rsp" />
+    <None Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\Roslyn45\Microsoft.CSharp.Core.targets" />
+    <None Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\Roslyn45\Microsoft.VisualBasic.Core.targets" />
+    <None Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\Roslyn45\vbc.exe.config" />
+    <None Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\Roslyn45\vbc.rsp" />
+    <None Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\Roslyn45\VBCSCompiler.exe.config" />
+    <None Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\csc.exe.config" />
+    <None Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\csc.rsp" />
+    <None Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\csi.exe.config" />
+    <None Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\csi.rsp" />
+    <None Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\Microsoft.CSharp.Core.targets" />
+    <None Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\Microsoft.Managed.Core.targets" />
+    <None Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\Microsoft.VisualBasic.Core.targets" />
+    <None Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\vbc.exe.config" />
+    <None Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\vbc.rsp" />
+    <None Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\VBCSCompiler.exe.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="capas\bin\capas.dll" />
+    <Content Include="capas\bin\capas.pdb" />
+    <Content Include="capas\bin\CDatos.dll" />
+    <Content Include="capas\bin\CDatos.pdb" />
+    <Content Include="capas\bin\CEntidades.dll" />
+    <Content Include="capas\bin\CEntidades.pdb" />
+    <Content Include="capas\bin\CReglas.dll" />
+    <Content Include="capas\bin\CReglas.pdb" />
+    <Content Include="capas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" />
+    <Content Include="capas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml" />
+    <Content Include="capas\bin\roslyn\csc.exe" />
+    <Content Include="capas\bin\roslyn\csi.exe" />
+    <Content Include="capas\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll" />
+    <Content Include="capas\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll" />
+    <Content Include="capas\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll" />
+    <Content Include="capas\bin\roslyn\Microsoft.CodeAnalysis.dll" />
+    <Content Include="capas\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll" />
+    <Content Include="capas\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll" />
+    <Content Include="capas\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll" />
+    <Content Include="capas\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll" />
+    <Content Include="capas\bin\roslyn\Microsoft.Win32.Primitives.dll" />
+    <Content Include="capas\bin\roslyn\System.AppContext.dll" />
+    <Content Include="capas\bin\roslyn\System.Collections.Immutable.dll" />
+    <Content Include="capas\bin\roslyn\System.Console.dll" />
+    <Content Include="capas\bin\roslyn\System.Diagnostics.DiagnosticSource.dll" />
+    <Content Include="capas\bin\roslyn\System.Diagnostics.FileVersionInfo.dll" />
+    <Content Include="capas\bin\roslyn\System.Diagnostics.StackTrace.dll" />
+    <Content Include="capas\bin\roslyn\System.Globalization.Calendars.dll" />
+    <Content Include="capas\bin\roslyn\System.IO.Compression.dll" />
+    <Content Include="capas\bin\roslyn\System.IO.Compression.ZipFile.dll" />
+    <Content Include="capas\bin\roslyn\System.IO.FileSystem.dll" />
+    <Content Include="capas\bin\roslyn\System.IO.FileSystem.Primitives.dll" />
+    <Content Include="capas\bin\roslyn\System.Net.Http.dll" />
+    <Content Include="capas\bin\roslyn\System.Net.Sockets.dll" />
+    <Content Include="capas\bin\roslyn\System.Reflection.Metadata.dll" />
+    <Content Include="capas\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll" />
+    <Content Include="capas\bin\roslyn\System.Security.Cryptography.Algorithms.dll" />
+    <Content Include="capas\bin\roslyn\System.Security.Cryptography.Encoding.dll" />
+    <Content Include="capas\bin\roslyn\System.Security.Cryptography.Primitives.dll" />
+    <Content Include="capas\bin\roslyn\System.Security.Cryptography.X509Certificates.dll" />
+    <Content Include="capas\bin\roslyn\System.Text.Encoding.CodePages.dll" />
+    <Content Include="capas\bin\roslyn\System.Threading.Tasks.Extensions.dll" />
+    <Content Include="capas\bin\roslyn\System.ValueTuple.dll" />
+    <Content Include="capas\bin\roslyn\System.Xml.ReaderWriter.dll" />
+    <Content Include="capas\bin\roslyn\System.Xml.XmlDocument.dll" />
+    <Content Include="capas\bin\roslyn\System.Xml.XPath.dll" />
+    <Content Include="capas\bin\roslyn\System.Xml.XPath.XDocument.dll" />
+    <Content Include="capas\bin\roslyn\vbc.exe" />
+    <Content Include="capas\bin\roslyn\VBCSCompiler.exe" />
+    <Content Include="capas\capas.csproj.user" />
+    <Content Include="capas\Ccapas.csproj.user" />
+    <Content Include="capas\Ccapas.sln" />
+    <Content Include="capas\formCita.aspx" />
+    <Content Include="capas\formEmpleado.aspx" />
+    <Content Include="capas\formEnfermedad.aspx" />
+    <Content Include="capas\formHistorial.aspx" />
+    <Content Include="capas\formPaciente.aspx" />
+    <Content Include="capas\formVisita.aspx" />
+    <Content Include="capas\formVisitante.aspx" />
+    <Content Include="capas\obj\Debug\capas.csproj.FileListAbsolute.txt" />
+    <Content Include="capas\obj\Debug\capas.dll" />
+    <Content Include="capas\obj\Debug\capas.pdb" />
+    <Content Include="capas\vista1.aspx" />
+    <Content Include="CDatos\bin\Debug\CDatos.dll" />
+    <Content Include="CDatos\bin\Debug\CDatos.pdb" />
+    <Content Include="CDatos\bin\Debug\CEntidades.dll" />
+    <Content Include="CDatos\bin\Debug\CEntidades.pdb" />
+    <Content Include="CDatos\CDatos.csproj.user" />
+    <Content Include="CDatos\obj\Debug\CDatos.csproj.FileListAbsolute.txt" />
+    <Content Include="CDatos\obj\Debug\CDatos.dll" />
+    <Content Include="CDatos\obj\Debug\CDatos.pdb" />
+    <Content Include="CEntidades\bin\Debug\CEntidades.dll" />
+    <Content Include="CEntidades\bin\Debug\CEntidades.pdb" />
+    <Content Include="CEntidades\CEntidades.csproj.user" />
+    <Content Include="CEntidades\obj\Debug\CEntidades.csproj.FileListAbsolute.txt" />
+    <Content Include="CEntidades\obj\Debug\CEntidades.dll" />
+    <Content Include="CEntidades\obj\Debug\CEntidades.pdb" />
+    <Content Include="CReglas\bin\Debug\CDatos.dll" />
+    <Content Include="CReglas\bin\Debug\CDatos.pdb" />
+    <Content Include="CReglas\bin\Debug\CEntidades.dll" />
+    <Content Include="CReglas\bin\Debug\CEntidades.pdb" />
+    <Content Include="CReglas\bin\Debug\CReglas.dll" />
+    <Content Include="CReglas\bin\Debug\CReglas.pdb" />
+    <Content Include="CReglas\CReglas.csproj.user" />
+    <Content Include="CReglas\obj\Debug\CReglas.csproj.FileListAbsolute.txt" />
+    <Content Include="CReglas\obj\Debug\CReglas.dll" />
+    <Content Include="CReglas\obj\Debug\CReglas.pdb" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\Roslyn45\csc.exe" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\Roslyn45\csi.exe" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\Roslyn45\Microsoft.Build.Tasks.CodeAnalysis.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\Roslyn45\Microsoft.CodeAnalysis.CSharp.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\Roslyn45\Microsoft.CodeAnalysis.CSharp.Scripting.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\Roslyn45\Microsoft.CodeAnalysis.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\Roslyn45\Microsoft.CodeAnalysis.Scripting.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\Roslyn45\Microsoft.CodeAnalysis.VisualBasic.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\Roslyn45\Microsoft.DiaSymReader.Native.amd64.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\Roslyn45\Microsoft.DiaSymReader.Native.x86.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\Roslyn45\System.AppContext.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\Roslyn45\System.Collections.Immutable.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\Roslyn45\System.Diagnostics.StackTrace.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\Roslyn45\System.IO.FileSystem.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\Roslyn45\System.IO.FileSystem.Primitives.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\Roslyn45\System.Reflection.Metadata.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\Roslyn45\vbc.exe" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\Roslyn45\VBCSCompiler.exe" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\csc.exe" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\csi.exe" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\Microsoft.Build.Tasks.CodeAnalysis.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\Microsoft.CodeAnalysis.CSharp.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\Microsoft.CodeAnalysis.CSharp.Scripting.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\Microsoft.CodeAnalysis.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\Microsoft.CodeAnalysis.Scripting.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\Microsoft.CodeAnalysis.VisualBasic.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\Microsoft.DiaSymReader.Native.amd64.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\Microsoft.DiaSymReader.Native.x86.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\Microsoft.Win32.Primitives.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\System.AppContext.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\System.Collections.Immutable.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\System.Console.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\System.Diagnostics.DiagnosticSource.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\System.Diagnostics.FileVersionInfo.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\System.Diagnostics.StackTrace.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\System.Globalization.Calendars.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\System.IO.Compression.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\System.IO.Compression.ZipFile.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\System.IO.FileSystem.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\System.IO.FileSystem.Primitives.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\System.Net.Http.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\System.Net.Sockets.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\System.Reflection.Metadata.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\System.Runtime.InteropServices.RuntimeInformation.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\System.Security.Cryptography.Algorithms.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\System.Security.Cryptography.Encoding.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\System.Security.Cryptography.Primitives.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\System.Security.Cryptography.X509Certificates.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\System.Text.Encoding.CodePages.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\System.Threading.Tasks.Extensions.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\System.ValueTuple.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\System.Xml.ReaderWriter.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\System.Xml.XmlDocument.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\System.Xml.XPath.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\System.Xml.XPath.XDocument.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\vbc.exe" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\VBCSCompiler.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="capas\formCita.aspx.cs">
+      <DependentUpon>formCita.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="capas\formCita.aspx.designer.cs">
+      <DependentUpon>formCita.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="capas\formEmpleado.aspx.cs">
+      <DependentUpon>formEmpleado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="capas\formEmpleado.aspx.designer.cs">
+      <DependentUpon>formEmpleado.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="capas\formEnfermedad.aspx.cs">
+      <DependentUpon>formEnfermedad.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="capas\formEnfermedad.aspx.designer.cs">
+      <DependentUpon>formEnfermedad.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="capas\formHistorial.aspx.cs">
+      <DependentUpon>formHistorial.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="capas\formHistorial.aspx.designer.cs">
+      <DependentUpon>formHistorial.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="capas\formPaciente.aspx.cs">
+      <DependentUpon>formPaciente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="capas\formPaciente.aspx.designer.cs">
+      <DependentUpon>formPaciente.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="capas\formVisita.aspx.cs">
+      <DependentUpon>formVisita.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="capas\formVisita.aspx.designer.cs">
+      <DependentUpon>formVisita.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="capas\formVisitante.aspx.cs">
+      <DependentUpon>formVisitante.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="capas\formVisitante.aspx.designer.cs">
+      <DependentUpon>formVisitante.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="capas\obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Include="capas\obj\Release\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Include="capas\obj\x86\Debug\.NETFramework,Version=v4.0,Profile=Client.AssemblyAttributes.cs" />
+    <Compile Include="capas\Properties\AssemblyInfo.cs" />
+    <Compile Include="capas\vista1.aspx.cs">
+      <DependentUpon>vista1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="capas\vista1.aspx.designer.cs">
+      <DependentUpon>vista1.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CDatos\CConexion.cs" />
+    <Compile Include="CDatos\CDCita.cs" />
+    <Compile Include="CDatos\CDEmpleado.cs" />
+    <Compile Include="CDatos\CDEnfermedad.cs" />
+    <Compile Include="CDatos\CDHistorial.cs" />
+    <Compile Include="CDatos\CDPaciente.cs" />
+    <Compile Include="CDatos\CDVisita.cs" />
+    <Compile Include="CDatos\CDVisitante.cs" />
+    <Compile Include="CDatos\obj\Debug\.NETFramework,Version=v4.0.AssemblyAttributes.cs" />
+    <Compile Include="CDatos\obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Include="CDatos\obj\Release\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Include="CDatos\Properties\AssemblyInfo.cs" />
+    <Compile Include="CEntidades\CECita.cs" />
+    <Compile Include="CEntidades\CEEmpleado.cs" />
+    <Compile Include="CEntidades\CEEnfermedad.cs" />
+    <Compile Include="CEntidades\CEHistorial.cs" />
+    <Compile Include="CEntidades\CEPaciente.cs" />
+    <Compile Include="CEntidades\CEVisita.cs" />
+    <Compile Include="CEntidades\CEVisitante.cs" />
+    <Compile Include="CEntidades\obj\Debug\.NETFramework,Version=v4.0.AssemblyAttributes.cs" />
+    <Compile Include="CEntidades\obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Include="CEntidades\obj\Release\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Include="CEntidades\Properties\AssemblyInfo.cs" />
+    <Compile Include="CReglas\CRCita.cs" />
+    <Compile Include="CReglas\CREmpleado.cs" />
+    <Compile Include="CReglas\CREnfermedad.cs" />
+    <Compile Include="CReglas\CRHistorial.cs" />
+    <Compile Include="CReglas\CRPaciente.cs" />
+    <Compile Include="CReglas\CRVisita.cs" />
+    <Compile Include="CReglas\CRVisitante.cs" />
+    <Compile Include="CReglas\obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Include="CReglas\obj\Release\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Include="CReglas\obj\x86\Debug\.NETFramework,Version=v4.0,Profile=Client.AssemblyAttributes.cs" />
+    <Compile Include="CReglas\Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="capas\bin\Debug\" />
+    <Folder Include="capas\obj\Debug\TempPE\" />
+    <Folder Include="capas\obj\x86\Debug\TempPE\" />
+    <Folder Include="CDatos\bin\Release\" />
+    <Folder Include="CDatos\obj\Debug\TempPE\" />
+    <Folder Include="CEntidades\bin\Release\" />
+    <Folder Include="CEntidades\obj\Debug\TempPE\" />
+    <Folder Include="CReglas\bin\Release\" />
+    <Folder Include="CReglas\obj\Debug\TempPE\" />
+    <Folder Include="CReglas\obj\x86\Debug\TempPE\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>

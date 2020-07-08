@@ -1,0 +1,15 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "tarea-formEmpleado",
+      "appliesTo": "capas/formEmpleado.aspx",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "tarea-CDatos",
+      "appliesTo": "/",
+      "type": "launch"
+    }
+  ]
+}

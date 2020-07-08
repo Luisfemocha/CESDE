@@ -8,8 +8,7 @@ using CReglas;
 using CEntidades;
 using System.Data;
 
-namespace capas
-{
+namespace capas{
     public partial class formPaciente : System.Web.UI.Page{
         bool IDC;
         CRPaciente crp;
@@ -23,6 +22,7 @@ namespace capas
                 return "No ha especificado un ID.";
             }
             else{
+                crp = new CRPaciente();
                 CEPaciente cep = new CEPaciente{ Idp = i };
                 DataSet dt = crp.leer_paciente(cep);
                 if (isEmpty(dt)){

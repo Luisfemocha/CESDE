@@ -7,3 +7,12 @@ C:\Users\luisf\source\repos\CDatos\CDatos\obj\Debug\CDatos.csproj.CoreCompileInp
 C:\Users\luisf\source\repos\CDatos\CDatos\obj\Debug\CDatos.csproj.CopyComplete
 C:\Users\luisf\source\repos\CDatos\CDatos\obj\Debug\CDatos.dll
 C:\Users\luisf\source\repos\CDatos\CDatos\obj\Debug\CDatos.pdb
+C:\Users\luisf\Documents\GitHub\cesde\NET\Hospital\CDatos\CDatos\bin\Debug\CDatos.dll
+C:\Users\luisf\Documents\GitHub\cesde\NET\Hospital\CDatos\CDatos\bin\Debug\CDatos.pdb
+C:\Users\luisf\Documents\GitHub\cesde\NET\Hospital\CDatos\CDatos\bin\Debug\CEntidades.dll
+C:\Users\luisf\Documents\GitHub\cesde\NET\Hospital\CDatos\CDatos\bin\Debug\CEntidades.pdb
+C:\Users\luisf\Documents\GitHub\cesde\NET\Hospital\CDatos\CDatos\obj\Debug\CDatos.csprojAssemblyReference.cache
+C:\Users\luisf\Documents\GitHub\cesde\NET\Hospital\CDatos\CDatos\obj\Debug\CDatos.csproj.CoreCompileInputs.cache
+C:\Users\luisf\Documents\GitHub\cesde\NET\Hospital\CDatos\CDatos\obj\Debug\CDatos.csproj.CopyComplete
+C:\Users\luisf\Documents\GitHub\cesde\NET\Hospital\CDatos\CDatos\obj\Debug\CDatos.dll
+C:\Users\luisf\Documents\GitHub\cesde\NET\Hospital\CDatos\CDatos\obj\Debug\CDatos.pdb

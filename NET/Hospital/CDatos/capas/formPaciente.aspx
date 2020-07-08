@@ -14,6 +14,7 @@
             height: 30px;
         }
     </style>
+    <script src="formPaciente.aspx.cs"></script>
 </head>
 <body>
     <form id="form1" runat="server">
