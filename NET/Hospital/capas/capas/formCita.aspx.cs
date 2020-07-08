@@ -153,7 +153,12 @@ namespace capas{
                 return;
             }
             CRCita crc = new CRCita();
-            DateTime fecha = System.Convert.ToDateTime(fechac3.Text);
+            int dia = System.Convert.ToInt32(tdia3.Text);
+            int mes = System.Convert.ToInt32(tmes3.Text);
+            int anio = System.Convert.ToInt32(tanio3.Text);
+            int hora = System.Convert.ToInt32(thora3.Text);
+            int minuto = System.Convert.ToInt32(tminut3.Text);
+            DateTime fecha = new DateTime(anio, mes, dia, hora, minuto, 0);
             int diagno = System.Convert.ToInt32(diag3.Text);
             CECita cec = new CECita { Idc= id, Ide1= ide, Idp1=idp, Fechac= fecha, Diagnostico= diagno};
             if (crc.actualizar_cita(cec, idviejo)) lblAC1.Text = System.Convert.ToString("Se ha actualizado la cita.");
