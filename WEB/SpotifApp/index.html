@@ -54,8 +54,8 @@
               </g>
             </g>
           </svg></center>
-          <h1 id="artista">Artista</h1>
-          <img class="imgArtista" id="imagen0">
+          <center><h1 id="artista">Artista</h1></center>
+          <center><img id="imagen0"></center>
     </header>
     <main>
         <div class="card-group">
@@ -64,7 +64,9 @@
               <div class="card-body">
                 <h5 class="card-title" id="titulo1"></h5>
                 <p class="card-text" id="nombre1"></p>
-                <audio id="audio1"></audio>
+                <audio controls id="audio1">
+                  <source type="audio/mp3">
+                </audio>
               </div>
             </div>
             <div class="card">
@@ -72,7 +74,9 @@
               <div class="card-body">
                 <h5 class="card-title" id="titulo2"></h5>
                 <p class="card-text" id="nombre2"></p>
-                <audio id="audio2"></audio>
+                <audio controls id="audio2">
+                  <source type="audio/mp3">
+                </audio>
               </div>
             </div>
             <div class="card">
@@ -80,21 +84,26 @@
               <div class="card-body">
                 <h5 class="card-title" id="titulo3"></h5>
                 <p class="card-text" id="nombre3"></p>
-                <audio id="audio3"></audio>
+                <audio controls id="audio3">
+                  <source type="audio/mp3">
+                </audio>
               </div>
             </div>
           </div>
         <script src="controlador.js"></script>
     </main>
-    <footer>
+    <center><footer>
         <hr>
-        <p>
+        <p class="bajo">
             Luis Felipe Moreno Chamorro <br>
             luisfemocha@gmail.com ✉ <br>
             3044056879 ✆ <br>
-        </p><div class="bandera"></div>&nbsp;Medellín <br>
-        &nbsp;Colombia
-        <p></p>
-    </footer>
+        </p>
+        <div class="bandera"></div>
+        <p class="bajo">
+          Medellín <br>
+          Colombia
+        </p>
+    </footer></center>
 </body>
 </html>

@@ -1,5 +1,6 @@
 .cuerpo{
     background-color: black;
+    font-family: Verdana;
 }
 
 main{
@@ -11,18 +12,20 @@ h1{
     text-transform: uppercase;
     color: white;
 }
-.imgArtista{
-    position: relative; 
-    left: 50%;
-}
-
 
 footer{
     background-color: gray;
 }
+.bajo{
+    align-content: flex-end;
+    position: static;
+}
+.tacerca{
+    color: white;
+}
 
 .bandera{
-    float: left;
+    float: center;
     margin: 0 auto;
     position: relative;
     width: 55px;
