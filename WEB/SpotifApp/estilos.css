@@ -1,32 +1,51 @@
 .cuerpo{
     background-color: black;
-    font-family: Verdana;
+    font-family: 'Franklin Gothic Medium';
 }
-
 main{
-    margin: 10px;
+    margin: 20px;
+    margin-bottom: 0px;
 }
-
 h1{
-    font-weight: bold;
     text-transform: uppercase;
     color: white;
 }
-
-footer{
-    background-color: gray;
+.fit{
+    display: inline-block;
+    border-radius: 25px;
+    padding: 2px;
+    max-width: 430px;
 }
-.bajo{
-    align-content: flex-end;
-    position: static;
+.card-group{
+    justify-content: center;
+}
+.imgAlbum{
+    min-width: 110px;
+    min-height: 110px;
+    max-width: 420px;
+    max-height: 420px;
+    align-self: center;
+}
+.imgrandom{
+    max-width: 420px;
 }
 .tacerca{
     color: white;
+    font-weight: 100;
 }
-
+footer{
+    background-color: #343a40;
+    margin-left: 16px;
+    margin-right: 16px;
+    
+}
+.bajo{
+    color: #fff;
+    font-weight: lighter;
+}
 .bandera{
     float: center;
-    margin: 0 auto;
+    margin: 0;
     position: relative;
     width: 55px;
     height: 36.75px;
