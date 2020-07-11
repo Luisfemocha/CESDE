@@ -43,10 +43,11 @@
             <div>
                 <table class="auto-style1">
                     <tr>
-                        <td>&nbsp;</td>
                         <td>
                             <asp:Label ID="lblCA" runat="server" Text="Crear Administrativo"></asp:Label>
                         </td>
+                        <td>
+                            &nbsp;</td>
                         <td>&nbsp;</td>
                     </tr>
                     <tr>
@@ -104,13 +105,14 @@
                         <td>&nbsp;</td>
                     </tr>
                 </table>
-                <hr />
+                <hr class="sep" />
                 <table class="auto-style1">
                     <tr>
-                        <td>&nbsp;</td>
                         <td>
                             <asp:Label ID="lblLA" runat="server" Text="Leer Administrativo"></asp:Label>
                         </td>
+                        <td>
+                            &nbsp;</td>
                         <td>&nbsp;</td>
                     </tr>
                     <tr>
@@ -141,13 +143,14 @@
                         <td>&nbsp;</td>
                     </tr>
                 </table>
-                <hr />
+                <hr class="sep"/>
                 <table class="auto-style1">
                     <tr>
-                        <td>&nbsp;</td>
                         <td>
                             <asp:Label ID="lblaa" runat="server" Text="Actualizar Administrativo"></asp:Label>
                         </td>
+                        <td>
+                            &nbsp;</td>
                         <td>&nbsp;</td>
                     </tr>
                     <tr>
@@ -223,13 +226,14 @@
                         <td>&nbsp;</td>
                     </tr>
                 </table>
-                <hr />
+                <hr class="sep"/>
                 <table class="auto-style1">
                     <tr>
-                        <td>&nbsp;</td>
                         <td>
                             <asp:Label ID="lblba" runat="server" Text="Borrar Administrativo"></asp:Label>
                         </td>
+                        <td>
+                            &nbsp;</td>
                         <td>&nbsp;</td>
                     </tr>
                     <tr>
@@ -262,11 +266,10 @@
                 </table>
             </div>
         </form>
-
+        <br />
     </main>
     <footer>
         <center>
-            <hr>
             <p>
                 Luis Felipe Moreno Chamorro <br>
                 luisfemocha@gmail.com ✉ <br>

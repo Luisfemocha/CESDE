@@ -57,3 +57,9 @@ C:\Users\luisf\Documents\GitHub\cesde\NET\DBCesde\VistaCesde\obj\Debug\VistaCesd
 C:\Users\luisf\Documents\GitHub\cesde\NET\DBCesde\VistaCesde\obj\Debug\VistaCesde.csproj.CopyComplete
 C:\Users\luisf\Documents\GitHub\cesde\NET\DBCesde\VistaCesde\obj\Debug\VistaCesde.dll
 C:\Users\luisf\Documents\GitHub\cesde\NET\DBCesde\VistaCesde\obj\Debug\VistaCesde.pdb
+C:\Users\luisf\Documents\GitHub\cesde\NET\DBCesde\VistaCesde\bin\CEntidades.dll
+C:\Users\luisf\Documents\GitHub\cesde\NET\DBCesde\VistaCesde\bin\CReglas.dll
+C:\Users\luisf\Documents\GitHub\cesde\NET\DBCesde\VistaCesde\bin\CDatos.dll
+C:\Users\luisf\Documents\GitHub\cesde\NET\DBCesde\VistaCesde\bin\CEntidades.pdb
+C:\Users\luisf\Documents\GitHub\cesde\NET\DBCesde\VistaCesde\bin\CReglas.pdb
+C:\Users\luisf\Documents\GitHub\cesde\NET\DBCesde\VistaCesde\bin\CDatos.pdb

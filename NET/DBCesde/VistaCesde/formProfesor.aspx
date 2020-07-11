@@ -44,10 +44,11 @@
             <div>
                 <table class="auto-style1">
                     <tr>
-                        <td>&nbsp;</td>
                         <td>
                             <asp:Label ID="lblCP" runat="server" Text="Crear Profesor"></asp:Label>
                         </td>
+                        <td>
+                            &nbsp;</td>
                         <td>&nbsp;</td>
                     </tr>
                     <tr>
@@ -105,13 +106,14 @@
                         <td>&nbsp;</td>
                     </tr>
                 </table>
-                <hr />
+                <hr class="sep"/>
                 <table class="auto-style1">
                     <tr>
-                        <td>&nbsp;</td>
                         <td>
                             <asp:Label ID="lblLP" runat="server" Text="Leer Profesor"></asp:Label>
                         </td>
+                        <td>
+                            &nbsp;</td>
                         <td>&nbsp;</td>
                     </tr>
                     <tr>
@@ -142,13 +144,14 @@
                         <td>&nbsp;</td>
                     </tr>
                 </table>
-                <hr />
+                <hr class="sep"/>
                 <table class="auto-style1">
                     <tr>
-                        <td>&nbsp;</td>
                         <td>
                             <asp:Label ID="lblap" runat="server" Text="Actualizar Profesor"></asp:Label>
                         </td>
+                        <td>
+                            &nbsp;</td>
                         <td>&nbsp;</td>
                     </tr>
                     <tr>
@@ -224,13 +227,14 @@
                         <td>&nbsp;</td>
                     </tr>
                 </table>
-                <hr />
+                <hr class="sep"/>
                 <table class="auto-style1">
                     <tr>
-                        <td>&nbsp;</td>
                         <td>
                             <asp:Label ID="lblbp" runat="server" Text="Borrar Profesor"></asp:Label>
                         </td>
+                        <td>
+                            &nbsp;</td>
                         <td>&nbsp;</td>
                     </tr>
                     <tr>
@@ -263,11 +267,10 @@
                 </table>
             </div>
         </form>
-
+        <br />
     </main>
     <footer>
         <center>
-            <hr>
             <p>
                 Luis Felipe Moreno Chamorro <br>
                 luisfemocha@gmail.com ✉ <br>

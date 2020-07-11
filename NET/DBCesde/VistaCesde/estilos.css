@@ -1,15 +1,15 @@
 ﻿.cuerpo {
-    background-color: black;
-    font-family: 'Franklin Gothic Medium';
-    color: #212529;
+    background-color: #1e1e1e;
+    font-family: Verdana;
+    color: white;
     font-weight: lighter;
 }
 main {
-    margin: 20px;
+    margin: 40px;
     margin-bottom: 0px;
 }
-hr {
-    border: 5px solid white;
+.sep {
+    border: 5px solid #343a40;
     border-radius: 3px;
 }
 footer {
