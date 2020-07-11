@@ -8,6 +8,7 @@ using System.Configuration;
 
 namespace CDatos{
     public class CConexion{
+        public SqlConnection conectar(string Cnx){ // es una funcion para abrir la base de datos
 
             try{ // desactiva la recoleccion automatica de errores
                 SqlConnection oconectar = new SqlConnection(ConfigurationSettings.AppSettings[Cnx].ToString());
