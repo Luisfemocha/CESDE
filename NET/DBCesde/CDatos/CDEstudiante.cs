@@ -43,7 +43,7 @@ namespace CDatos{
                 DataSet ds = new DataSet();
                 da.Fill(ds);
                 if (ds.Tables[0].Rows.Count == 0) return "ne";
-                String res = "ID: " + ds.Tables[0].Rows[0]["ide"].ToString() + "\nNombre: " + ds.Tables[0].Rows[0]["nome"].ToString() + "\nTelefono: " + ds.Tables[0].Rows[0]["tele"].ToString() + "\nCargo: " + ds.Tables[0].Rows[0]["programa"].ToString();
+                String res = "ID: " + ds.Tables[0].Rows[0]["ide"].ToString() + "\nNombre: " + ds.Tables[0].Rows[0]["nome"].ToString() + "\nTelefono: " + ds.Tables[0].Rows[0]["tele"].ToString() + "\nPrograma: " + ds.Tables[0].Rows[0]["programa"].ToString();
                 return res;
             }
             catch (Exception err){

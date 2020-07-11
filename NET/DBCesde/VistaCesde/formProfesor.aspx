@@ -34,6 +34,9 @@
                     <li class="nav-item ">
                         <a class="nav-link" href="formEstudiante.aspx">Estudiante</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">Acerca de.</a>
+                    </li>
                 </ul>
                 <span class="auto-style4">CRUD</span><span class="auto-style8"> </span>
             </div>
@@ -272,14 +275,18 @@
     <footer>
         <center>
             <p>
-                Luis Felipe Moreno Chamorro <br>
-                luisfemocha@gmail.com ✉ <br>
-                3044056879 ✆ <br>
+                Luis Felipe Moreno Chamorro<br/>
+                CC: 1001366627<br/>
+                Eimi Shadday Pinzón Hoyos<br />
+                CC: 1193096185 <br />
+                Yirleyson Toro Ramírez<br />
+                CC: 1152223265<br />
             </p>
             <div class="bandera"></div>
             <p>
-                Medellín <br>
-                Colombia
+                Medellín<br/>
+                Colombia<br/>
+                2020
             </p>
         </center>
     </footer>
